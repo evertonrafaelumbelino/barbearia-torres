@@ -27,33 +27,33 @@ imgMenu.addEventListener("click", () => {
 });
 
 linkFacebook.addEventListener("mouseenter", () => {
-    imgFacebook.src = "../assets/imgs/icon-facebook-red.png";
+    imgFacebook.src = "assets/imgs/icon-facebook-red.png";
 });
 
 linkFacebook.addEventListener("mouseleave", () => {
-    imgFacebook.src = "../assets/imgs/icon-facebook.png";
+    imgFacebook.src = "assets/imgs/icon-facebook.png";
 });
 
 linkInstagram.addEventListener("mouseenter", () => {
-    imgInstagram.src = "../assets/imgs/icon-instagram-red.png";
+    imgInstagram.src = "assets/imgs/icon-instagram-red.png";
 });
 
 linkInstagram.addEventListener("mouseleave", () => {
-    imgInstagram.src = "../assets/imgs/icon-instagram.png";
+    imgInstagram.src = "assets/imgs/icon-instagram.png";
 });
 
 linkWhatsapp.addEventListener("mouseenter", () => {
-    imgWhatsapp.src = "../assets/imgs/icon-whatsapp-red.png";
+    imgWhatsapp.src = "assets/imgs/icon-whatsapp-red.png";
 });
 
 linkWhatsapp.addEventListener("mouseleave", () => {
-    imgWhatsapp.src = "../assets/imgs/icon-whatsapp.png";
+    imgWhatsapp.src = "assets/imgs/icon-whatsapp.png";
 });
 
 linkTiktok.addEventListener("mouseenter", () => {
-    imgTiktok.src = "../assets/imgs/icon-tiktok-red.png";
+    imgTiktok.src = "assets/imgs/icon-tiktok-red.png";
 });
 
 linkTiktok.addEventListener("mouseleave", () => {
-    imgTiktok.src = "../assets/imgs/icon-tiktok.png";
+    imgTiktok.src = "assets/imgs/icon-tiktok.png";
 });
