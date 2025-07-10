@@ -1,0 +1,311 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: "Bebas Neue";
+}
+
+h1 {    
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+i {
+    color: rgb(112, 0, 0);
+    font-weight: bold;
+}
+
+strong {
+    color: rgb(112, 0, 0);
+}
+
+a {
+    font-size: 16px;
+    padding: 10px;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c;
+    color: white;
+    font-family: "Open Sans";
+    line-height: 1.6;
+}
+
+header {
+    position: fixed;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: center;  
+    top: 0px;
+    height: 80px;
+    width: 100%;
+    padding: 0px 5px;
+    background-color: black;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.511);       
+}
+
+header > p {
+    color: rgb(112, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Bebas Neue";
+} 
+
+#divImgMenu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgMenu {
+    width: 30%;
+}
+
+menu {
+    display: none;
+    width: 31%;    
+}
+
+menu > a {
+    color: white;    
+    text-decoration: none;
+    border-top: 1px solid white;
+    width: 100%;
+    text-align: center;
+}
+
+menu > a:hover {
+    color: darkred;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 12px 0px 12px;
+    margin-bottom: 70px;
+    background-color: #1c1c1c;    
+}
+
+section#hero {
+    background-image: url("../imgs/cabeleireiro.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+}
+
+div#heroContent {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 97.6vw;
+    height: 100%;
+    background-color: #0000009a;
+}
+
+div#heroContent > p {
+    margin-top: -8px;
+}
+
+a#agendar {
+    background-color: rgb(112, 0, 0);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+a#agendar:hover {
+    background-color: rgb(145, 2, 2);
+}
+
+section#sobre {
+    max-width: 700px;
+}
+
+section#sobre > img {
+    width: 100%;
+    height: 100%;
+}
+
+section#servicos {
+    max-width: 700px;
+}
+
+div.blocosServicos {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #262323;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 40px;
+    height: 360px;
+}
+
+div.blocosServicos:hover {
+    transform: scale(1.03);
+    border: 1px solid rgb(145, 2, 2);
+}
+
+div.blocosServicos > img {
+    width: 130px;
+    height: 130px;
+    border: 2px solid  white;
+    border-radius: 50%;
+} 
+
+div.blocosServicos > a {
+    background-color: rgb(112, 0, 0);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+div.blocosServicos > a:hover {
+    background-color: rgb(145, 2, 2);
+}
+
+section#galeria {
+    max-width: 700px;
+}
+
+div#blocoImagens {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+div.blocosImagens {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.blocosImagens > img {
+    width: 80%;
+    margin-top: 50px;
+}
+
+section#contato {
+    max-width: 700px;
+}
+
+div#infoContato > ul {
+    list-style: none;
+    margin: 40px 0px;
+}
+
+div#mapa {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+div#mapa > iframe {
+    width: 95%;
+    margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c;
+    margin-top: 120px;
+}
+
+footer > i {
+    font-size: 20px;
+}
+
+div#linksF {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0px;
+    border: 1px solid white;
+    width: 95%;
+}
+
+div#linksF > a {
+    color: white;
+    text-decoration: none;
+    border-top: 1px solid white;   
+    width: 100%;
+}
+
+div#linksF > a:hover {
+    color: darkred;
+}
+
+div#iconRedeSoc {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+div#iconRedeSoc > a {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+div#iconRedeSoc img {
+    width: 50px;
+    padding: 5px;
+}
+
+div#direitosAut {
+    margin: 20px 0px;
+    text-align: center;
+}
